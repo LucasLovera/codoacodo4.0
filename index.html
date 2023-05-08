@@ -35,6 +35,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
   </head>
   <body id="page-top">
@@ -95,10 +96,10 @@
     </header>
    
     <section class="projects-section bg-light">
-      <div class="container px-4 px-lg-5" id="oradores">
+      <div class="container px-4 px-lg-5" id="oradores" >
         
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-          <div class="col-lg-6">
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-down-right">
+          <div class="col-lg-6" >
             <img class="img-fluid w-100" src="assets/img/stevej.jpg" alt="..." />
           </div>
           <div class="col-lg-6">
@@ -119,7 +120,7 @@
             </div>
           </div>
         </div>
-              <div class="row gx-0 mb-5 mb-lg-0 justify-content-center ">
+              <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-down-left">
           <div class="col-lg-6">
             <img class="img-fluid w-100" src="assets/img/bill.jpg" alt="..." />
           </div>
@@ -141,7 +142,7 @@
             </div>
           </div>
         </div>
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="fade-down-right">
           <div class="col-lg-6">
             <img
               class="img-fluid w-100"
@@ -150,7 +151,7 @@
             />
           </div>
           <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
+            <div class="bg-black text-center h-100 project" >
               <div class="d-flex h-100">
                 <div
                   class="project-text w-100 my-auto text-center text-lg-left"
@@ -304,8 +305,10 @@
     <script src="js/scripts.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

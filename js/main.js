@@ -22,3 +22,4 @@ botonEnviar.addEventListener('click', (evento) => {
     `
   })
 });
+AOS.init();
